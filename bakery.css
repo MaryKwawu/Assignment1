@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* width: 100vw; */
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2{
+  font-size: 1.8rem;
+  width: 100%;
+  text-align: center;
+}
+h2 hr{
+  width: 10%;
+  height: 4px;
+  border: none;
+  background-color: brown;
+  margin: .5rem auto 0 auto;
+}
+
+/* This style for the header */
+
+header {
+  width: 100%;
+  background-color: lime;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 1.5rem;
+
+}
+
+.nav-links{
+  display: flex;
+  width: 60%;
+  background-color: slateblue;
+  justify-content: space-evenly;
+
+}
+.nav-links a span{
+  display: block;
+  
+}
+.nav-links a{
+  text-align: center;
+
+}
+ /* Style for section */
+section{
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 5rem;
+
+}
+.banner{
+  background-image: url(./bread.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+} 
+
+/* what we off */
+.what-we-offer{
+  height: 100%;
+}
+.what-we-offer-images{
+  width: 100%;
+  display: flex;
+  /* height: 80%; */
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+.bread-image{
+  width: 20rem;
+  height: 20rem;
+  position:relative;
+  display: flex;
+  justify-content: center;
+
+}
+.bread-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+}
+
+.bread-image p{
+  width: 100%;
+  /* text-align: center; */
+  font-size: 1.5rem;
+  position:absolute;
+  top: 10%;
+  left: -20%;
+  color: brown;
+  transform: rotate(-20deg);
+  /* background-color: lawngreen; */
+}
+/* Our bread */
+
+.our-story{
+  display: flex;
+  /* background-color: rgb(28, 36, 36); */
+
+
+}
+.our-story .article{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 50%;
+  font-size: 1.3rem;
+  padding: 4rem;
+  background-color: rgb(31, 75, 149);
+  color: white;
+
+}
+
+.our-story-images{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.our-story .story-image{
+  width: 25%;
+  height: 50%;
+
+}
+
+.story-image img{
+  width: 100%;
+  height: 100%;
+}
+
+/* resturant menu */
+
+.menu-images{
+  width: 100%;
+  display: flex;
+  /* height: 80%; */
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+.menu-image{
+  width: 20rem;
+  height: 25rem;
+  position:relative;
+  display: flex;
+  justify-content: center;
+
+}
+.menu-image img{
+  width: 100%;
+  height: 100%;
+  
+}
+.menu-image p{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 2rem;
+  position:absolute;
+  top: 50%;
+  /* left: 50%; */
+  color: white;
+  /* transform: translate(-50%,-50%); */
+ 
+}
+
+/* our bread section */
+
+.our-breads{
+width: 100%;
+  display: flex;
+  /* height: 80%; */
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+.bread-img{
+  width: 20rem;
+  height: 30rem;
+  position:relative;
+  /* display: flex;
+  justify-content: center; */
+}
+.bread-img img{
+    width: 100%;
+  height: 80%;
+}
+.bread-text{
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+}
+/*  */
+.our-bread button{
+  font-size: 1rem;
+  padding: 0rem 1.5rem ; 
+  margin: 0 0 5rem 50% ;
+}
+
+
+/* footer section */
+.footer{
+  margin-top: 10rem;
+  /* height: 100vh; */
+  width: 100%;
+}
+.footer1, .footer2{
+  height: 50%;
+  width: 100%;
+}
+
+.footer1{
+  background-color: silver;
+  display: flex;
+  height: 80%;
+}
+.footer1-text{
+  background-color: whitesmoke;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  font-size: 1.2rem;
+}
+
+.footer1-text p{
+  padding: 0 5rem;
+}
+
+.footer-input input, .footer-input button{
+font-size: 1.3rem;
+padding: .2rem .5rem;
+border: none;
+outline: none;
+
+}
+
+.footer-input button{
+  background-color: brown;
+  color:white;
+}
+
+.footer-input{
+  border: 4px solid brown;
+  border-radius: 10px;
+}
+
+
+.footer-image{
+  /* background-color: chartreuse; */
+  width: 50%;
+  height: 100%;
+  background-image: url(./barley\ breads.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+
+
+.footer2{
+  background-color: wheat;
+  display: flex;
+  justify-content: space-evenly;
+  }
+
+  .footer2 > div{
+ width: 20%;
+  height: 100%;
+  font-size: 1.2rem;
+  }
+
+
+  .footer-logo{
+  /* background-color: cornflowerblue; */
+  display: flex;
+  align-items: center;
+  }
+
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ align-items: center;
+  /* background-color: beige; */
+}
+
+.footer-contact{
+   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: cadetblue ; */
+  align-items: center;
+}
+
+
+.footer-socials{
+  /* background-color: cyan; */
+  position: relative;
+}
+
+.footer-socials div{
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+ 
+}
+
+.footer-socials img{
+  width: 1.5rem;
+}
+
